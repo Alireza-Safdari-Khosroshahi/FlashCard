@@ -1,0 +1,1818 @@
+[
+    {
+        "question": "Inference",
+        "answer": "\u0627\u0633\u062a\u0646\u0628\u0627\u0637",
+        "deck_id": "4116",
+        "id": "2805",
+        "interval": 1,
+        "due_date": "2025-11-09T22:00:09.834460"
+    },
+    {
+        "question": "Effine",
+        "answer": "\u0646\u0633\u0628\u062a",
+        "deck_id": "4116",
+        "id": "5303",
+        "interval": 1,
+        "due_date": "2025-11-09T21:52:52.471405"
+    },
+    {
+        "question": "Employ",
+        "answer": "\u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u06a9\u0631\u062f\u0646",
+        "deck_id": "4116",
+        "id": "2207",
+        "interval": 1,
+        "due_date": "2025-11-09T21:52:40.503811"
+    },
+    {
+        "question": "Abstraction",
+        "answer": "\u0627\u0646\u062a\u0632\u0627\u0639",
+        "id": "4075",
+        "due_date": "2025-11-08T22:39:16.553097",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Acceptance Criteria",
+        "answer": "\u0645\u0639\u06cc\u0627\u0631\u0647\u0627\u06cc \u067e\u0630\u06cc\u0631\u0634",
+        "id": "2999",
+        "due_date": "2025-11-08T22:39:16.553120",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Actuator",
+        "answer": "\u0639\u0645\u0644\u06af\u0631",
+        "id": "4655",
+        "due_date": "2025-11-08T22:39:16.553124",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Adapter (Pattern)",
+        "answer": "\u0622\u062f\u0627\u067e\u062a\u0648\u0631 / \u062a\u0637\u0628\u06cc\u0642\u200c\u062f\u0647\u0646\u062f\u0647",
+        "id": "4583",
+        "due_date": "2025-11-09T23:21:39.099325",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Affine (Transform)",
+        "answer": "\u0622\u0641\u06cc\u0646 / \u0648\u0627\u0628\u0633\u062a\u0647 \u062e\u0637\u06cc",
+        "id": "7824",
+        "due_date": "2025-11-08T22:39:16.553129",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Aggregate",
+        "answer": "\u062a\u062c\u0645\u06cc\u0639 \u06a9\u0631\u062f\u0646 / \u0645\u062c\u0645\u0648\u0639",
+        "id": "8312",
+        "due_date": "2025-11-08T22:39:16.553132",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Agile",
+        "answer": "\u0686\u0627\u0628\u06a9",
+        "id": "2152",
+        "due_date": "2025-11-08T22:39:16.553134",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Algorithm",
+        "answer": "\u0627\u0644\u06af\u0648\u0631\u06cc\u062a\u0645",
+        "id": "1615",
+        "due_date": "2025-11-08T22:39:16.553136",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Ambiguous",
+        "answer": "\u0645\u0628\u0647\u0645 / \u0686\u0646\u062f\u067e\u0647\u0644\u0648",
+        "id": "8959",
+        "due_date": "2025-11-08T23:21:23.467640",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Amortized (Analysis)",
+        "answer": "\u0633\u0631\u0634\u06a9\u0646 \u0634\u062f\u0647 / \u0627\u0633\u062a\u0647\u0644\u0627\u06a9\u06cc",
+        "id": "9100",
+        "due_date": "2025-11-08T22:39:16.553139",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Analysis",
+        "answer": "\u062a\u062d\u0644\u06cc\u0644 / \u0622\u0646\u0627\u0644\u06cc\u0632",
+        "id": "5701",
+        "due_date": "2025-11-08T22:39:16.553141",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Anomaly",
+        "answer": "\u0646\u0627\u0647\u0646\u062c\u0627\u0631\u06cc / \u063a\u06cc\u0631\u0639\u0627\u062f\u06cc",
+        "id": "3436",
+        "due_date": "2025-11-10T14:44:23.669260",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "API Gateway",
+        "answer": "\u062f\u0631\u0648\u0627\u0632\u0647 API",
+        "id": "1731",
+        "due_date": "2025-11-09T23:24:50.812425",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Arbitrary",
+        "answer": "\u062f\u0644\u062e\u0648\u0627\u0647 / \u0627\u062e\u062a\u06cc\u0627\u0631\u06cc",
+        "id": "1763",
+        "due_date": "2025-11-08T22:39:16.553148",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Architecture",
+        "answer": "\u0645\u0639\u0645\u0627\u0631\u06cc",
+        "id": "7579",
+        "due_date": "2025-11-08T22:39:16.553150",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Artifact",
+        "answer": "\u062e\u0631\u0648\u062c\u06cc \u0633\u0627\u062e\u062a / \u0622\u0631\u062a\u06cc\u0641\u06a9\u062a",
+        "id": "4035",
+        "due_date": "2025-11-08T22:39:16.553151",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Asynchronous",
+        "answer": "\u063a\u06cc\u0631\u0647\u0645\u0632\u0645\u0627\u0646",
+        "id": "2675",
+        "due_date": "2025-11-08T22:39:16.553154",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Asymptotic",
+        "answer": "\u0645\u062c\u0627\u0646\u0628\u06cc",
+        "id": "1348",
+        "due_date": "2025-11-08T22:39:16.553156",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Atomic (Operation)",
+        "answer": "\u0627\u062a\u0645\u06cc\u06a9 / \u062a\u062c\u0632\u06cc\u0647\u200c\u0646\u0627\u067e\u0630\u06cc\u0631",
+        "id": "2210",
+        "due_date": "2025-11-08T22:39:16.553158",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Augment",
+        "answer": "\u062a\u0642\u0648\u06cc\u062a \u06a9\u0631\u062f\u0646 / \u0627\u0641\u0632\u0627\u06cc\u0634 \u062f\u0627\u062f\u0646",
+        "id": "5863",
+        "due_date": "2025-11-09T23:25:16.712373",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Authentication",
+        "answer": "\u0627\u062d\u0631\u0627\u0632 \u0647\u0648\u06cc\u062a",
+        "id": "8239",
+        "due_date": "2025-11-08T22:39:16.553161",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Authorization",
+        "answer": "\u06a9\u0633\u0628 \u0645\u062c\u0648\u0632",
+        "id": "4869",
+        "due_date": "2025-11-08T22:39:16.553163",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Autonomous",
+        "answer": "\u062e\u0648\u062f\u0645\u062e\u062a\u0627\u0631 / \u062e\u0648\u062f\u06af\u0631\u062f\u0627\u0646",
+        "id": "2996",
+        "due_date": "2025-11-08T22:39:16.553166",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Axiom",
+        "answer": "\u0627\u0635\u0644 \u0645\u0648\u0636\u0648\u0639",
+        "id": "8472",
+        "due_date": "2025-11-08T22:39:16.553168",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Backlog",
+        "answer": "\u0628\u06a9\u200c\u0644\u0627\u06af / \u06a9\u0627\u0631\u0647\u0627\u06cc \u0645\u0639\u0648\u0642\u0647",
+        "id": "3336",
+        "due_date": "2025-11-08T22:39:16.553170",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Backpropagation",
+        "answer": "\u0627\u0646\u062a\u0634\u0627\u0631 \u0645\u0639\u06a9\u0648\u0633 (\u067e\u0633\u200c\u0627\u0646\u062a\u0634\u0627\u0631)",
+        "id": "6765",
+        "due_date": "2025-11-08T22:39:16.553171",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Bandwidth",
+        "answer": "\u067e\u0647\u0646\u0627\u06cc \u0628\u0627\u0646\u062f",
+        "id": "4617",
+        "due_date": "2025-11-08T22:39:16.553173",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Batch (Processing)",
+        "answer": "\u062f\u0633\u062a\u0647 / \u062f\u0633\u062a\u0647\u200c\u0627\u06cc",
+        "id": "4686",
+        "due_date": "2025-11-08T22:39:16.553175",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Bayesian",
+        "answer": "\u0628\u06cc\u0632\u06cc / \u0628\u06cc\u0632\u06cc\u0646",
+        "id": "4594",
+        "due_date": "2025-11-08T22:39:16.553177",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Benchmark",
+        "answer": "\u0645\u0639\u06cc\u0627\u0631 \u0633\u0646\u062c\u0634 / \u0645\u062d\u06a9",
+        "id": "2270",
+        "due_date": "2025-11-08T22:39:16.553179",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Bias",
+        "answer": "\u0628\u0627\u06cc\u0627\u0633 / \u0627\u0631\u06cc\u0628",
+        "id": "6428",
+        "due_date": "2025-11-08T22:39:16.553181",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Blue-Green (Deployment)",
+        "answer": "\u0622\u0628\u06cc-\u0633\u0628\u0632 (\u0646\u0648\u0639\u06cc \u0627\u0633\u062a\u0642\u0631\u0627\u0631)",
+        "id": "1678",
+        "due_date": "2025-11-08T22:39:16.553183",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Boolean",
+        "answer": "\u0628\u0648\u0644\u06cc / \u0645\u0646\u0637\u0642\u06cc",
+        "id": "6107",
+        "due_date": "2025-11-08T22:39:16.553185",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Branch (VCS)",
+        "answer": "\u0634\u0627\u062e\u0647 / \u0627\u0646\u0634\u0639\u0627\u0628",
+        "id": "5451",
+        "due_date": "2025-11-08T22:39:16.553186",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Cache",
+        "answer": "\u062d\u0627\u0641\u0638\u0647 \u067e\u0646\u0647\u0627\u0646",
+        "id": "7873",
+        "due_date": "2025-11-08T22:39:16.553188",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Calibration",
+        "answer": "\u06a9\u0627\u0644\u06cc\u0628\u0631\u0627\u0633\u06cc\u0648\u0646 / \u0648\u0627\u0633\u0646\u062c\u06cc",
+        "id": "5741",
+        "due_date": "2025-11-08T22:39:16.553190",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Canary (Release)",
+        "answer": "\u0642\u0646\u0627\u0631\u06cc (\u0646\u0648\u0639\u06cc \u0627\u0646\u062a\u0634\u0627\u0631)",
+        "id": "6657",
+        "due_date": "2025-11-08T22:39:16.553192",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Causation",
+        "answer": "\u0639\u0644\u06cc\u062a / \u0633\u0628\u0628\u06cc\u062a",
+        "id": "7421",
+        "due_date": "2025-11-08T22:39:16.553194",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Certificate",
+        "answer": "\u06af\u0648\u0627\u0647\u06cc\u0646\u0627\u0645\u0647 (\u062f\u06cc\u062c\u06cc\u062a\u0627\u0644)",
+        "id": "4161",
+        "due_date": "2025-11-08T22:39:16.553197",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "CI/CD (Continuous Integration/Deployment)",
+        "answer": "\u06cc\u06a9\u067e\u0627\u0631\u0686\u0647\u200c\u0633\u0627\u0632\u06cc \u0648 \u0627\u0633\u062a\u0642\u0631\u0627\u0631 \u0645\u0633\u062a\u0645\u0631",
+        "id": "5142",
+        "due_date": "2025-11-09T23:25:13.012038",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Classification",
+        "answer": "\u0637\u0628\u0642\u0647\u200c\u0628\u0646\u062f\u06cc",
+        "id": "2282",
+        "due_date": "2025-11-10T00:45:11.110159",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Cohesion",
+        "answer": "\u0627\u0646\u0633\u062c\u0627\u0645 (\u062f\u0631 \u06a9\u062f)",
+        "id": "3126",
+        "due_date": "2025-11-08T22:39:16.553202",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Collision (Hash)",
+        "answer": "\u062a\u0635\u0627\u062f\u0645 / \u0628\u0631\u062e\u0648\u0631\u062f",
+        "id": "4302",
+        "due_date": "2025-11-08T22:39:16.553204",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Complexity",
+        "answer": "\u067e\u06cc\u0686\u06cc\u062f\u06af\u06cc",
+        "id": "8322",
+        "due_date": "2025-11-08T22:39:16.553206",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Concise",
+        "answer": "\u0645\u062e\u062a\u0635\u0631 / \u0645\u0648\u062c\u0632",
+        "id": "5947",
+        "due_date": "2025-11-08T22:39:16.553208",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Concurrency",
+        "answer": "\u0647\u0645\u0631\u0648\u0646\u062f\u06cc",
+        "id": "9112",
+        "due_date": "2025-11-08T22:39:16.553209",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Configuration",
+        "answer": "\u067e\u06cc\u06a9\u0631\u0628\u0646\u062f\u06cc / \u062a\u0646\u0638\u06cc\u0645\u0627\u062a",
+        "id": "3780",
+        "due_date": "2025-11-08T22:39:16.553212",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Constraint",
+        "answer": "\u0642\u06cc\u062f / \u0645\u062d\u062f\u0648\u062f\u06cc\u062a",
+        "id": "6784",
+        "due_date": "2025-11-08T22:39:16.553213",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Containerization",
+        "answer": "\u06a9\u0627\u0646\u062a\u06cc\u0646\u0631\u0633\u0627\u0632\u06cc",
+        "id": "4016",
+        "due_date": "2025-11-08T22:39:16.553215",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Contrast (Maximization)",
+        "answer": "\u06a9\u0646\u062a\u0631\u0627\u0633\u062a / \u062a\u0636\u0627\u062f (\u0628\u06cc\u0634\u06cc\u0646\u0647\u200c\u0633\u0627\u0632\u06cc)",
+        "id": "2014",
+        "due_date": "2025-11-08T22:39:16.553217",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Control Loop",
+        "answer": "\u062d\u0644\u0642\u0647 \u06a9\u0646\u062a\u0631\u0644",
+        "id": "3127",
+        "due_date": "2025-11-08T22:39:16.553219",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Conventional",
+        "answer": "\u0645\u0631\u0633\u0648\u0645 / \u0645\u062a\u062f\u0627\u0648\u0644",
+        "id": "3815",
+        "due_date": "2025-11-08T22:39:16.553221",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Convergence",
+        "answer": "\u0647\u0645\u06af\u0631\u0627\u06cc\u06cc",
+        "id": "8452",
+        "due_date": "2025-11-08T22:39:16.553223",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Convolution",
+        "answer": "\u06a9\u0627\u0646\u0648\u0644\u0648\u0634\u0646 / \u067e\u06cc\u0686\u0634",
+        "id": "2631",
+        "due_date": "2025-11-08T22:39:16.553225",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Correlation",
+        "answer": "\u0647\u0645\u0628\u0633\u062a\u06af\u06cc",
+        "id": "6371",
+        "due_date": "2025-11-08T22:39:16.553227",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Coupling",
+        "answer": "\u0648\u0627\u0628\u0633\u062a\u06af\u06cc / \u062c\u0641\u062a\u200c\u0634\u062f\u06af\u06cc (\u062f\u0631 \u06a9\u062f)",
+        "id": "7869",
+        "due_date": "2025-11-08T22:39:16.553229",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Covariance",
+        "answer": "\u06a9\u0648\u0648\u0627\u0631\u06cc\u0627\u0646\u0633",
+        "id": "9856",
+        "due_date": "2025-11-08T22:39:16.553231",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Cross-validation",
+        "answer": "\u0627\u0639\u062a\u0628\u0627\u0631\u0633\u0646\u062c\u06cc \u0645\u062a\u0642\u0627\u0628\u0644",
+        "id": "6887",
+        "due_date": "2025-11-08T22:39:16.553233",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Deadlock",
+        "answer": "\u0628\u0646\u200c\u0628\u0633\u062a",
+        "id": "4195",
+        "due_date": "2025-11-10T00:44:59.198042",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Debugging",
+        "answer": "\u0627\u0634\u06a9\u0627\u0644\u200c\u0632\u062f\u0627\u06cc\u06cc",
+        "id": "6863",
+        "due_date": "2025-11-08T22:39:16.553237",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Decorator (Pattern)",
+        "answer": "\u062a\u0632\u0626\u06cc\u0646\u200c\u06af\u0631",
+        "id": "6060",
+        "due_date": "2025-11-08T22:39:16.553239",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Decryption",
+        "answer": "\u0631\u0645\u0632\u06af\u0634\u0627\u06cc\u06cc",
+        "id": "4318",
+        "due_date": "2025-11-08T22:39:16.553241",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Dependency (Injection)",
+        "answer": "\u0648\u0627\u0628\u0633\u062a\u06af\u06cc (\u062a\u0632\u0631\u06cc\u0642)",
+        "id": "6909",
+        "due_date": "2025-11-08T22:39:16.553243",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Deployment",
+        "answer": "\u0627\u0633\u062a\u0642\u0631\u0627\u0631 / \u0646\u0635\u0628",
+        "id": "1840",
+        "due_date": "2025-11-08T22:39:16.553245",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Deprecated",
+        "answer": "\u0645\u0646\u0633\u0648\u062e",
+        "id": "8179",
+        "due_date": "2025-11-08T22:39:16.553246",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Descriptor (Feature)",
+        "answer": "\u062a\u0648\u0635\u06cc\u0641\u06af\u0631 (\u0648\u06cc\u0698\u06af\u06cc)",
+        "id": "2036",
+        "due_date": "2025-11-09T23:28:03.505867",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Deterministic",
+        "answer": "\u0642\u0637\u0639\u06cc / \u0645\u0639\u06cc\u0646",
+        "id": "5100",
+        "due_date": "2025-11-08T22:39:16.553253",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Disparity (Stereo)",
+        "answer": "\u0646\u0627\u0647\u0645\u062a\u0627\u06cc\u06cc / \u0627\u062e\u062a\u0644\u0627\u0641",
+        "id": "6178",
+        "due_date": "2025-11-08T22:39:16.553256",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Distribution",
+        "answer": "\u062a\u0648\u0632\u06cc\u0639",
+        "id": "4987",
+        "due_date": "2025-11-08T22:39:16.553258",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Divergence",
+        "answer": "\u0648\u0627\u06af\u0631\u0627\u06cc\u06cc",
+        "id": "5857",
+        "due_date": "2025-11-08T22:39:16.553260",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Dynamics (Robotics)",
+        "answer": "\u062f\u06cc\u0646\u0627\u0645\u06cc\u06a9",
+        "id": "5474",
+        "due_date": "2025-11-09T22:39:58.567571",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Efficacy",
+        "answer": "\u0627\u062b\u0631\u0628\u062e\u0634\u06cc / \u06a9\u0627\u0631\u0627\u06cc\u06cc",
+        "id": "8202",
+        "due_date": "2025-11-08T22:39:16.553264",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Efficiency",
+        "answer": "\u0628\u0647\u0631\u0647\u200c\u0648\u0631\u06cc / \u0631\u0627\u0646\u062f\u0645\u0627\u0646",
+        "id": "9053",
+        "due_date": "2025-11-08T22:39:16.553266",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Eigenvalue / Eigenvector",
+        "answer": "\u0645\u0642\u062f\u0627\u0631 \u0648\u06cc\u0698\u0647 / \u0628\u0631\u062f\u0627\u0631 \u0648\u06cc\u0698\u0647",
+        "id": "3981",
+        "due_date": "2025-11-08T22:39:16.553268",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Elasticity",
+        "answer": "\u06a9\u0650\u0634\u0633\u0627\u0646\u06cc / \u0627\u0646\u0639\u0637\u0627\u0641\u200c\u067e\u0630\u06cc\u0631\u06cc",
+        "id": "3011",
+        "due_date": "2025-11-10T00:08:26.425728",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Empirical",
+        "answer": "\u062a\u062c\u0631\u0628\u06cc",
+        "id": "8618",
+        "due_date": "2025-11-08T22:39:16.553272",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Emulate",
+        "answer": "\u0634\u0628\u06cc\u0647\u200c\u0633\u0627\u0632\u06cc \u06a9\u0631\u062f\u0646 (\u062f\u0642\u06cc\u0642)",
+        "id": "7165",
+        "due_date": "2025-11-08T22:39:16.553273",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Encapsulation",
+        "answer": "\u06a9\u067e\u0633\u0648\u0644\u0647\u200c\u0633\u0627\u0632\u06cc",
+        "id": "5570",
+        "due_date": "2025-11-08T22:39:16.553276",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Encryption",
+        "answer": "\u0631\u0645\u0632\u0646\u06af\u0627\u0631\u06cc",
+        "id": "5710",
+        "due_date": "2025-11-08T22:39:16.553280",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Endpoint",
+        "answer": "\u0646\u0642\u0637\u0647 \u067e\u0627\u06cc\u0627\u0646\u06cc (API)",
+        "id": "2846",
+        "due_date": "2025-11-09T23:25:24.995174",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Entropy",
+        "answer": "\u0622\u0646\u062a\u0631\u0648\u067e\u06cc",
+        "id": "8095",
+        "due_date": "2025-11-08T22:39:16.553284",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Epipolar (Geometry)",
+        "answer": "\u0627\u0650\u067e\u06cc\u200c\u0642\u0637\u0628\u06cc / \u0628\u0631\u0648\u0646\u200c\u0642\u0637\u0628\u06cc",
+        "id": "8840",
+        "due_date": "2025-11-08T22:39:16.553286",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Epoch",
+        "answer": "\u0627\u0650\u067e\u0648\u06a9 (\u062f\u0648\u0631\u0647)",
+        "id": "8686",
+        "due_date": "2025-11-08T22:39:16.553288",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Estimation",
+        "answer": "\u062a\u062e\u0645\u06cc\u0646 / \u0628\u0631\u0622\u0648\u0631\u062f",
+        "id": "4702",
+        "due_date": "2025-11-09T23:25:00.645446",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Event-driven",
+        "answer": "\u0631\u0648\u06cc\u062f\u0627\u062f \u0645\u062d\u0648\u0631",
+        "id": "2976",
+        "due_date": "2025-11-09T23:27:58.072688",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Explicit",
+        "answer": "\u0635\u0631\u06cc\u062d / \u0622\u0634\u06a9\u0627\u0631",
+        "id": "7635",
+        "due_date": "2025-11-08T22:39:16.553294",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Extrapolate",
+        "answer": "\u0628\u0631\u0648\u0646\u200c\u06cc\u0627\u0628\u06cc \u06a9\u0631\u062f\u0646",
+        "id": "1185",
+        "due_date": "2025-11-08T22:39:16.553297",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Facade (Pattern)",
+        "answer": "\u0646\u0645\u0627 / \u0641\u0627\u0633\u0627\u062f",
+        "id": "6681",
+        "due_date": "2025-11-08T22:39:16.553299",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Fault Tolerance",
+        "answer": "\u062a\u062d\u0645\u0644 \u062e\u0637\u0627",
+        "id": "6417",
+        "due_date": "2025-11-08T22:39:16.553300",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Feature (Engineering)",
+        "answer": "\u0648\u06cc\u0698\u06af\u06cc (\u0645\u0647\u0646\u062f\u0633\u06cc)",
+        "id": "3013",
+        "due_date": "2025-11-08T22:39:16.553302",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Feedback (Loop)",
+        "answer": "\u0628\u0627\u0632\u062e\u0648\u0631\u062f (\u062d\u0644\u0642\u0647)",
+        "id": "6021",
+        "due_date": "2025-11-08T22:39:16.553304",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Framework",
+        "answer": "\u0686\u0627\u0631\u0686\u0648\u0628",
+        "id": "8461",
+        "due_date": "2025-11-08T22:39:16.553306",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Garbage Collection",
+        "answer": "\u0632\u0628\u0627\u0644\u0647\u200c\u0631\u0648\u0628\u06cc",
+        "id": "5844",
+        "due_date": "2025-11-08T22:39:16.553308",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Gaussian",
+        "answer": "\u06af\u0648\u0633\u06cc / \u06af\u0627\u0648\u0633\u06cc",
+        "id": "9822",
+        "due_date": "2025-11-08T22:39:16.553310",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Generalization",
+        "answer": "\u062a\u0639\u0645\u06cc\u0645",
+        "id": "1834",
+        "due_date": "2025-11-09T23:28:08.155663",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Gradient (Descent)",
+        "answer": "\u06af\u0631\u0627\u062f\u06cc\u0627\u0646 (\u06a9\u0627\u0647\u0634)",
+        "id": "7829",
+        "due_date": "2025-11-09T23:20:04.501921",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Graph",
+        "answer": "\u06af\u0631\u0627\u0641",
+        "id": "5116",
+        "due_date": "2025-11-08T22:39:16.553315",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Greedy (Algorithm)",
+        "answer": "\u062d\u0631\u06cc\u0635\u0627\u0646\u0647",
+        "id": "4623",
+        "due_date": "2025-11-08T22:39:16.553317",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Heuristic",
+        "answer": "\u0627\u0628\u062a\u06a9\u0627\u0631\u06cc / \u0627\u06a9\u062a\u0634\u0627\u0641\u06cc",
+        "id": "9696",
+        "due_date": "2025-11-08T22:39:16.553319",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "High Availability",
+        "answer": "\u062f\u0633\u062a\u0631\u0633\u06cc\u200c\u067e\u0630\u06cc\u0631\u06cc \u0628\u0627\u0644\u0627",
+        "id": "2611",
+        "due_date": "2025-11-08T22:39:16.553321",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Homography",
+        "answer": "\u0647\u0645\u0648\u06af\u0631\u0627\u0641\u06cc",
+        "id": "9233",
+        "due_date": "2025-11-08T22:39:16.553323",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Hypothesis",
+        "answer": "\u0641\u0631\u0636\u06cc\u0647",
+        "id": "8749",
+        "due_date": "2025-11-08T22:39:16.553325",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Idempotent",
+        "answer": "\u062e\u0648\u062f\u062a\u0648\u0627\u0646",
+        "id": "9359",
+        "due_date": "2025-11-08T22:39:16.553327",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Immutable",
+        "answer": "\u062a\u063a\u06cc\u06cc\u0631\u0646\u0627\u067e\u0630\u06cc\u0631 / \u067e\u0627\u06cc\u0627",
+        "id": "8802",
+        "due_date": "2025-11-10T00:08:14.308878",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Implicit",
+        "answer": "\u0636\u0645\u0646\u06cc / \u062a\u0644\u0648\u06cc\u062d\u06cc",
+        "id": "6403",
+        "due_date": "2025-11-08T22:39:16.553331",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Inertial (IMU)",
+        "answer": "\u0627\u06cc\u0646\u0631\u0633\u06cc\u0627\u06cc\u06cc (\u0648\u0627\u062d\u062f \u0627\u0646\u062f\u0627\u0632\u0647\u200c\u06af\u06cc\u0631\u06cc)",
+        "id": "6082",
+        "due_date": "2025-11-08T22:39:16.553333",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Inference",
+        "answer": "\u0627\u0633\u062a\u0646\u0628\u0627\u0637",
+        "id": "3075",
+        "due_date": "2025-11-08T22:39:16.553335",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Infrastructure (as Code)",
+        "answer": "\u0632\u06cc\u0631\u0633\u0627\u062e\u062a (\u0628\u0647 \u0639\u0646\u0648\u0627\u0646 \u06a9\u062f)",
+        "id": "7610",
+        "due_date": "2025-11-09T23:21:16.250973",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Inheritance",
+        "answer": "\u0627\u0631\u062b\u200c\u0628\u0631\u06cc",
+        "id": "3130",
+        "due_date": "2025-11-08T22:39:16.553339",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Integration (Test)",
+        "answer": "\u06cc\u06a9\u067e\u0627\u0631\u0686\u0647\u200c\u0633\u0627\u0632\u06cc (\u0622\u0632\u0645\u0648\u0646)",
+        "id": "9931",
+        "due_date": "2025-11-08T22:39:16.553341",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Interface",
+        "answer": "\u0631\u0627\u0628\u0637 / \u0648\u0627\u0633\u0637",
+        "id": "8028",
+        "due_date": "2025-11-08T22:39:16.553343",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Interpolate",
+        "answer": "\u062f\u0631\u0648\u0646\u200c\u06cc\u0627\u0628\u06cc \u06a9\u0631\u062f\u0646",
+        "id": "2385",
+        "due_date": "2025-11-08T22:39:16.553344",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Inversion of Control (IoC)",
+        "answer": "\u0648\u0627\u0631\u0648\u0646\u06af\u06cc \u06a9\u0646\u062a\u0631\u0644",
+        "id": "7010",
+        "due_date": "2025-11-09T23:27:46.324285",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Iteration",
+        "answer": "\u062a\u06a9\u0631\u0627\u0631",
+        "id": "8907",
+        "due_date": "2025-11-08T22:39:16.553348",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Kalman (Filter)",
+        "answer": "\u06a9\u0627\u0644\u0645\u0646 (\u0641\u06cc\u0644\u062a\u0631)",
+        "id": "4874",
+        "due_date": "2025-11-08T22:39:16.553350",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Kanban",
+        "answer": "\u06a9\u0627\u0646\u0628\u0627\u0646",
+        "id": "2589",
+        "due_date": "2025-11-08T22:39:16.553352",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Kernel",
+        "answer": "\u0647\u0633\u062a\u0647 / \u06a9\u0631\u0646\u0644",
+        "id": "8969",
+        "due_date": "2025-11-09T22:39:38.784787",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Kinematics",
+        "answer": "\u0633\u06cc\u0646\u0645\u0627\u062a\u06cc\u06a9",
+        "id": "6366",
+        "due_date": "2025-11-08T22:39:16.553355",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Latency",
+        "answer": "\u062a\u0627\u062e\u06cc\u0631 / \u0632\u0645\u0627\u0646 \u0646\u0647\u0641\u062a\u06af\u06cc",
+        "id": "6102",
+        "due_date": "2025-11-09T23:19:28.901439",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Legacy (Code)",
+        "answer": "\u0645\u06cc\u0631\u0627\u062b / \u06a9\u062f \u0642\u062f\u06cc\u0645\u06cc",
+        "id": "5143",
+        "due_date": "2025-11-08T22:39:16.553359",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Lemma",
+        "answer": "\u0644\u0650\u0645 (\u062f\u0631 \u0627\u062b\u0628\u0627\u062a)",
+        "id": "9356",
+        "due_date": "2025-11-10T00:45:18.426415",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Library",
+        "answer": "\u06a9\u062a\u0627\u0628\u062e\u0627\u0646\u0647",
+        "id": "7687",
+        "due_date": "2025-11-08T22:39:16.553363",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Load Balancing",
+        "answer": "\u0645\u062a\u0639\u0627\u062f\u0644\u200c\u0633\u0627\u0632\u06cc \u0628\u0627\u0631",
+        "id": "3790",
+        "due_date": "2025-11-08T22:39:16.553365",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Logging",
+        "answer": "\u062b\u0628\u062a \u0648\u0642\u0627\u06cc\u0639 / \u0644\u0627\u06af\u200c\u0628\u0631\u062f\u0627\u0631\u06cc",
+        "id": "6995",
+        "due_date": "2025-11-09T23:19:25.784819",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Mean",
+        "answer": "\u0645\u06cc\u0627\u0646\u06af\u06cc\u0646",
+        "id": "1557",
+        "due_date": "2025-11-08T22:39:16.553369",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Median",
+        "answer": "\u0645\u06cc\u0627\u0646\u0647",
+        "id": "2679",
+        "due_date": "2025-11-08T22:39:16.553371",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Merge",
+        "answer": "\u0627\u062f\u063a\u0627\u0645 \u06a9\u0631\u062f\u0646",
+        "id": "5429",
+        "due_date": "2025-11-08T22:39:16.553373",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Message Queue",
+        "answer": "\u0635\u0641 \u067e\u06cc\u0627\u0645",
+        "id": "4265",
+        "due_date": "2025-11-08T22:39:16.553375",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Methodology",
+        "answer": "\u0645\u062a\u062f\u0648\u0644\u0648\u0698\u06cc / \u0631\u0648\u0634\u200c\u0634\u0646\u0627\u0633\u06cc",
+        "id": "3732",
+        "due_date": "2025-11-08T22:39:16.553376",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Metric",
+        "answer": "\u0633\u0646\u062c\u0647 / \u0645\u062a\u0631\u06cc\u06a9",
+        "id": "8814",
+        "due_date": "2025-11-08T22:39:16.553378",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Microservice",
+        "answer": "\u0645\u06cc\u06a9\u0631\u0648\u0633\u0631\u0648\u06cc\u0633 / \u0631\u06cc\u0632\u0633\u0631\u0648\u06cc\u0633",
+        "id": "7001",
+        "due_date": "2025-11-08T22:39:16.553380",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Middleware",
+        "answer": "\u0645\u06cc\u0627\u0646\u200c\u0627\u0641\u0632\u0627\u0631",
+        "id": "3633",
+        "due_date": "2025-11-08T22:39:16.553382",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Modularity",
+        "answer": "\u067e\u06cc\u0645\u0627\u0646\u0647\u200c\u0627\u06cc \u0628\u0648\u062f\u0646 / \u0645\u0627\u0698\u0648\u0644\u0627\u0631 \u0628\u0648\u062f\u0646",
+        "id": "4882",
+        "due_date": "2025-11-08T22:39:16.553384",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Monitoring",
+        "answer": "\u067e\u0627\u06cc\u0634 / \u0645\u0627\u0646\u06cc\u062a\u0648\u0631\u06cc\u0646\u06af",
+        "id": "4866",
+        "due_date": "2025-11-08T22:39:16.553386",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Monolith",
+        "answer": "\u06cc\u06a9\u067e\u0627\u0631\u0686\u0647 (\u0645\u0648\u0646\u0648\u0644\u06cc\u062a)",
+        "id": "8766",
+        "due_date": "2025-11-09T23:25:32.161619",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Multithreading",
+        "answer": "\u0686\u0646\u062f\u0646\u062e\u06cc",
+        "id": "6492",
+        "due_date": "2025-11-08T22:39:16.553390",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Mutable",
+        "answer": "\u062a\u063a\u06cc\u06cc\u0631\u067e\u0630\u06cc\u0631",
+        "id": "9885",
+        "due_date": "2025-11-08T22:39:16.553392",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Namespace",
+        "answer": "\u0641\u0636\u0627\u06cc \u0646\u0627\u0645",
+        "id": "4398",
+        "due_date": "2025-11-09T23:20:09.651796",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Non-deterministic",
+        "answer": "\u063a\u06cc\u0631\u0642\u0637\u0639\u06cc / \u0646\u0627\u0645\u0639\u06cc\u0646",
+        "id": "7546",
+        "due_date": "2025-11-08T22:39:16.553395",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Non-trivial",
+        "answer": "\u063a\u06cc\u0631\u0628\u062f\u06cc\u0647\u06cc",
+        "id": "8888",
+        "due_date": "2025-11-08T22:39:16.553397",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Novel",
+        "answer": "\u062c\u062f\u06cc\u062f / \u0628\u062f\u06cc\u0639",
+        "id": "1419",
+        "due_date": "2025-11-08T22:39:16.553399",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Observer (Pattern)",
+        "answer": "\u0646\u0627\u0638\u0631",
+        "id": "2761",
+        "due_date": "2025-11-08T22:39:16.553401",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Obfuscate",
+        "answer": "\u0645\u0628\u0647\u0645\u200c\u0633\u0627\u0632\u06cc \u06a9\u0631\u062f\u0646",
+        "id": "2794",
+        "due_date": "2025-11-08T22:41:22.017940",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Odometry",
+        "answer": "\u0645\u0633\u0627\u0641\u062a\u200c\u0633\u0646\u062c\u06cc",
+        "id": "5831",
+        "due_date": "2025-11-09T23:21:32.833082",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Optical Flow",
+        "answer": "\u062c\u0631\u06cc\u0627\u0646 \u0646\u0648\u0631\u06cc",
+        "id": "6168",
+        "due_date": "2025-11-08T22:39:16.553409",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Optimization",
+        "answer": "\u0628\u0647\u06cc\u0646\u0647\u200c\u0633\u0627\u0632\u06cc",
+        "id": "6928",
+        "due_date": "2025-11-09T22:39:53.684304",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Orchestration",
+        "answer": "\u0647\u0645\u0627\u0647\u0646\u06af\u200c\u0633\u0627\u0632\u06cc (\u0627\u0631\u06a9\u0633\u062a\u0631\u0627\u0633\u06cc\u0648\u0646)",
+        "id": "5531",
+        "due_date": "2025-11-08T22:39:16.553413",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Outlier",
+        "answer": "\u062f\u0627\u062f\u0647 \u067e\u0631\u062a",
+        "id": "5034",
+        "due_date": "2025-11-09T23:19:46.900252",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Overfitting",
+        "answer": "\u0628\u06cc\u0634\u200c\u0628\u0631\u0627\u0632\u0634",
+        "id": "2878",
+        "due_date": "2025-11-09T23:27:42.607736",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Parallelism",
+        "answer": "\u0645\u0648\u0627\u0632\u06cc\u200c\u0633\u0627\u0632\u06cc",
+        "id": "5934",
+        "due_date": "2025-11-08T22:39:16.553419",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Parameter",
+        "answer": "\u067e\u0627\u0631\u0627\u0645\u062a\u0631",
+        "id": "1892",
+        "due_date": "2025-11-09T23:25:04.795198",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Parsing",
+        "answer": "\u062a\u062c\u0632\u06cc\u0647 (\u06a9\u062f \u06cc\u0627 \u0645\u062a\u0646)",
+        "id": "2799",
+        "due_date": "2025-11-08T22:39:16.553423",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Payload",
+        "answer": "\u0628\u0627\u0631 \u0645\u0641\u06cc\u062f / \u0645\u062d\u0645\u0648\u0644\u0647 (\u062f\u0627\u062f\u0647)",
+        "id": "1093",
+        "due_date": "2025-11-08T22:39:16.553425",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Perspective",
+        "answer": "\u067e\u0631\u0633\u067e\u06a9\u062a\u06cc\u0648 / \u0645\u0646\u0638\u0631",
+        "id": "6639",
+        "due_date": "2025-11-08T22:39:16.553427",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Pipeline",
+        "answer": "\u062e\u0637 \u0644\u0648\u0644\u0647 (\u067e\u0627\u06cc\u067e\u200c\u0644\u0627\u06cc\u0646)",
+        "id": "1288",
+        "due_date": "2025-11-08T22:39:16.553428",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Polymorphism",
+        "answer": "\u0686\u0646\u062f\u0631\u06cc\u062e\u062a\u06cc",
+        "id": "3114",
+        "due_date": "2025-11-08T22:39:16.553430",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Pose (Estimation)",
+        "answer": "\u0698\u0633\u062a / \u062d\u0627\u0644\u062a (\u062a\u062e\u0645\u06cc\u0646)",
+        "id": "9632",
+        "due_date": "2025-11-10T14:44:31.335995",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Postmortem",
+        "answer": "\u06a9\u0627\u0644\u0628\u062f\u0634\u06a9\u0627\u0641\u06cc (\u0631\u062e\u062f\u0627\u062f)",
+        "id": "8835",
+        "due_date": "2025-11-08T22:39:16.553434",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Postulate",
+        "answer": "\u0627\u0635\u0644 \u0645\u0648\u0636\u0648\u0639 / \u0641\u0631\u0636 \u06a9\u0631\u062f\u0646",
+        "id": "8057",
+        "due_date": "2025-11-08T22:39:16.553436",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Precision",
+        "answer": "\u062f\u0642\u062a",
+        "id": "4340",
+        "due_date": "2025-11-08T22:39:16.553438",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Prerequisite",
+        "answer": "\u067e\u06cc\u0634\u200c\u0646\u06cc\u0627\u0632",
+        "id": "9784",
+        "due_date": "2025-11-09T23:21:27.733299",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Probabilistic",
+        "answer": "\u0627\u062d\u062a\u0645\u0627\u0644\u0627\u062a\u06cc",
+        "id": "8898",
+        "due_date": "2025-11-08T22:39:16.553443",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Propagation",
+        "answer": "\u0627\u0646\u062a\u0634\u0627\u0631",
+        "id": "3743",
+        "due_date": "2025-11-08T22:39:16.553444",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Protocol",
+        "answer": "\u067e\u0631\u0648\u062a\u06a9\u0644 / \u0642\u0631\u0627\u0631\u062f\u0627\u062f",
+        "id": "6965",
+        "due_date": "2025-11-09T23:27:47.922297",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Provisioning",
+        "answer": "\u062a\u0627\u0645\u06cc\u0646 (\u0645\u0646\u0627\u0628\u0639)",
+        "id": "2389",
+        "due_date": "2025-11-08T22:39:16.553448",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Proxy",
+        "answer": "\u067e\u0631\u0627\u06a9\u0633\u06cc / \u067e\u06cc\u0634\u06a9\u0627\u0631",
+        "id": "7779",
+        "due_date": "2025-11-08T22:39:16.553450",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Pub/Sub (Publish/Subscribe)",
+        "answer": "\u0627\u0646\u062a\u0634\u0627\u0631/\u0627\u0634\u062a\u0631\u0627\u06a9",
+        "id": "4706",
+        "due_date": "2025-11-08T22:39:16.553452",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Qualitative",
+        "answer": "\u06a9\u06cc\u0641\u06cc",
+        "id": "5155",
+        "due_date": "2025-11-08T22:39:16.553454",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Quantitative",
+        "answer": "\u06a9\u0645\u06cc",
+        "id": "7712",
+        "due_date": "2025-11-08T22:39:16.553456",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Query",
+        "answer": "\u067e\u0631\u0633 \u0648 \u062c\u0648 / \u06a9\u0648\u0626\u0631\u06cc",
+        "id": "9306",
+        "due_date": "2025-11-08T22:39:16.553458",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Queue",
+        "answer": "\u0635\u0641",
+        "id": "5108",
+        "due_date": "2025-11-08T22:39:16.553459",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Race Condition",
+        "answer": "\u0634\u0631\u0627\u06cc\u0637 \u0631\u0642\u0627\u0628\u062a\u06cc",
+        "id": "2796",
+        "due_date": "2025-11-09T23:27:51.788888",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Recall",
+        "answer": "\u0628\u0627\u0632\u06cc\u0627\u0628\u06cc (\u062f\u0631 \u0645\u062a\u0631\u06cc\u06a9\u200c\u0647\u0627)",
+        "id": "9432",
+        "due_date": "2025-11-08T22:39:16.553463",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Reconstruction (3D)",
+        "answer": "\u0628\u0627\u0632\u0633\u0627\u0632\u06cc (\u0633\u0647\u200c\u0628\u0639\u062f\u06cc)",
+        "id": "4608",
+        "due_date": "2025-11-08T22:39:16.553465",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Recursion",
+        "answer": "\u0628\u0627\u0632\u06af\u0634\u062a",
+        "id": "9386",
+        "due_date": "2025-11-08T22:39:16.553467",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Redundancy",
+        "answer": "\u0627\u0641\u0632\u0648\u0646\u06af\u06cc",
+        "id": "6915",
+        "due_date": "2025-11-08T22:39:16.553469",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Refactoring",
+        "answer": "\u0628\u0627\u0632\u0622\u0631\u0627\u06cc\u06cc (\u06a9\u062f)",
+        "id": "3662",
+        "due_date": "2025-11-09T23:20:13.050792",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Regularization",
+        "answer": "\u062a\u0646\u0638\u06cc\u0645\u200c\u0633\u0627\u0632\u06cc / \u0645\u0646\u0638\u0645\u200c\u0633\u0627\u0632\u06cc",
+        "id": "7035",
+        "due_date": "2025-11-08T22:39:16.553473",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Repository",
+        "answer": "\u0645\u062e\u0632\u0646",
+        "id": "1325",
+        "due_date": "2025-11-09T23:49:45.457037",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Resilient",
+        "answer": "\u062a\u0627\u0628\u200c\u0622\u0648\u0631 / \u0645\u0642\u0627\u0648\u0645",
+        "id": "8047",
+        "due_date": "2025-11-08T22:39:16.553477",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Rollback",
+        "answer": "\u0628\u0627\u0632\u06af\u0631\u062f\u0627\u0646\u06cc / \u0648\u0627\u06af\u0631\u062f\u0627\u0646\u06cc",
+        "id": "8318",
+        "due_date": "2025-11-08T22:39:16.553479",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Robust",
+        "answer": "\u0645\u0642\u0627\u0648\u0645 / \u0627\u0633\u062a\u0648\u0627\u0631",
+        "id": "5098",
+        "due_date": "2025-11-08T22:39:16.553480",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Scalability",
+        "answer": "\u0645\u0642\u06cc\u0627\u0633\u200c\u067e\u0630\u06cc\u0631\u06cc",
+        "id": "1804",
+        "due_date": "2025-11-08T22:39:16.553483",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Scrum",
+        "answer": "\u0627\u0633\u06a9\u0631\u0627\u0645",
+        "id": "9849",
+        "due_date": "2025-11-08T22:39:16.553485",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Segmentation",
+        "answer": "\u0628\u062e\u0634\u200c\u0628\u0646\u062f\u06cc / \u0642\u0637\u0639\u0647\u200c\u0628\u0646\u062f\u06cc",
+        "id": "8764",
+        "due_date": "2025-11-08T22:39:16.553487",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Semaphore",
+        "answer": "\u0686\u0631\u0627\u063a \u0631\u0627\u0647\u0646\u0645\u0627 (\u062f\u0631 \u0647\u0645\u0631\u0648\u0646\u062f\u06cc)",
+        "id": "6559",
+        "due_date": "2025-11-08T22:39:16.553489",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Sensor (Fusion)",
+        "answer": "\u062d\u0633\u06af\u0631 (\u0627\u062f\u063a\u0627\u0645)",
+        "id": "9859",
+        "due_date": "2025-11-08T22:39:16.553490",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Serialization",
+        "answer": "\u0633\u0631\u06cc\u0627\u0644\u200c\u0633\u0627\u0632\u06cc",
+        "id": "7174",
+        "due_date": "2025-11-08T22:39:16.553492",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Service Mesh",
+        "answer": "\u062a\u0648\u0631\u06cc \u062e\u062f\u0645\u0627\u062a\u06cc",
+        "id": "6977",
+        "due_date": "2025-11-08T23:51:04.308312",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Simulate",
+        "answer": "\u0634\u0628\u06cc\u0647\u200c\u0633\u0627\u0632\u06cc \u06a9\u0631\u062f\u0646",
+        "id": "6040",
+        "due_date": "2025-11-08T22:39:16.553496",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Singleton (Pattern)",
+        "answer": "\u062a\u06a9\u200c\u0627\u0644\u06af\u0648 / \u0633\u06cc\u0646\u06af\u0644\u062a\u0648\u0646",
+        "id": "9571",
+        "due_date": "2025-11-09T23:27:55.588879",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "SLAM",
+        "answer": "\u0645\u06a9\u0627\u0646\u200c\u06cc\u0627\u0628\u06cc \u0648 \u0646\u0642\u0634\u0647\u200c\u0628\u0631\u062f\u0627\u0631\u06cc \u0647\u0645\u0632\u0645\u0627\u0646",
+        "id": "7953",
+        "due_date": "2025-11-09T23:19:36.984415",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Sprint",
+        "answer": "\u0627\u0633\u067e\u0631\u06cc\u0646\u062a / \u062f\u0648\u0631\u0647 \u062a\u06a9\u0631\u0627\u0631",
+        "id": "6292",
+        "due_date": "2025-11-09T22:39:49.058053",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Stack",
+        "answer": "\u067e\u0634\u062a\u0647",
+        "id": "8072",
+        "due_date": "2025-11-08T22:39:16.553504",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Standard Deviation",
+        "answer": "\u0627\u0646\u062d\u0631\u0627\u0641 \u0645\u0639\u06cc\u0627\u0631",
+        "id": "1237",
+        "due_date": "2025-11-08T22:39:16.553506",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "State (Machine)",
+        "answer": "\u062d\u0627\u0644\u062a (\u0645\u0627\u0634\u06cc\u0646)",
+        "id": "8926",
+        "due_date": "2025-11-08T22:39:16.553508",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Stateless / Stateful",
+        "answer": "\u0628\u06cc\u200c\u062d\u0627\u0644\u062a / \u0628\u0627\u062d\u0627\u0644\u062a",
+        "id": "1967",
+        "due_date": "2025-11-08T22:39:16.553510",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Stereo (Vision)",
+        "answer": "\u0627\u0633\u062a\u0631\u06cc\u0648 (\u0628\u06cc\u0646\u0627\u06cc\u06cc)",
+        "id": "1135",
+        "due_date": "2025-11-09T23:24:57.845350",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Stochastic",
+        "answer": "\u062a\u0635\u0627\u062f\u0641\u06cc / \u0627\u062d\u062a\u0645\u0627\u0644\u06cc",
+        "id": "8102",
+        "due_date": "2025-11-08T22:39:16.553514",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Synchronous",
+        "answer": "\u0647\u0645\u0632\u0645\u0627\u0646",
+        "id": "3812",
+        "due_date": "2025-11-08T22:39:16.553516",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Synthesis",
+        "answer": "\u0633\u0646\u062a\u0632 / \u062a\u0631\u06a9\u06cc\u0628",
+        "id": "1500",
+        "due_date": "2025-11-08T22:39:16.553518",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "TDD (Test-Driven Development)",
+        "answer": "\u062a\u0648\u0633\u0639\u0647 \u0622\u0632\u0645\u0648\u0646\u200c\u0645\u062d\u0648\u0631",
+        "id": "7532",
+        "due_date": "2025-11-08T22:39:16.553520",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Technical Debt",
+        "answer": "\u0628\u062f\u0647\u06cc \u0641\u0646\u06cc",
+        "id": "7788",
+        "due_date": "2025-11-09T23:49:56.857467",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Telemetry",
+        "answer": "\u062a\u0644\u0647\u200c\u0645\u062a\u0631\u06cc / \u062f\u0648\u0631\u0633\u0646\u062c\u06cc",
+        "id": "6993",
+        "due_date": "2025-11-10T00:08:20.392667",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Tensor",
+        "answer": "\u062a\u0627\u0646\u0633\u0648\u0631",
+        "id": "9898",
+        "due_date": "2025-11-09T23:28:05.755490",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Theorem",
+        "answer": "\u0642\u0636\u06cc\u0647",
+        "id": "2071",
+        "due_date": "2025-11-08T22:39:16.553527",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Throughput",
+        "answer": "\u062a\u0648\u0627\u0646 \u0639\u0645\u0644\u06cc\u0627\u062a\u06cc",
+        "id": "4821",
+        "due_date": "2025-11-09T23:25:21.261532",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Token",
+        "answer": "\u062a\u0648\u06a9\u0646 / \u0646\u0634\u0627\u0646\u0647",
+        "id": "8950",
+        "due_date": "2025-11-08T22:39:16.553531",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Topology",
+        "answer": "\u062a\u0648\u067e\u0648\u0644\u0648\u0698\u06cc / \u0647\u0645\u0628\u0646\u062f\u06cc",
+        "id": "8644",
+        "due_date": "2025-11-08T22:39:16.553533",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Transformation",
+        "answer": "\u062a\u0628\u062f\u06cc\u0644 / \u062a\u0631\u0627\u062f\u06cc\u0633\u06cc",
+        "id": "8787",
+        "due_date": "2025-11-10T14:44:15.701883",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Traversal (Graph)",
+        "answer": "\u067e\u06cc\u0645\u0627\u06cc\u0634 (\u06af\u0631\u0627\u0641)",
+        "id": "2936",
+        "due_date": "2025-11-08T22:39:16.553537",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Triangulation",
+        "answer": "\u0645\u062b\u0644\u062b\u200c\u0628\u0646\u062f\u06cc",
+        "id": "1229",
+        "due_date": "2025-11-08T22:39:16.553539",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Trivial",
+        "answer": "\u0628\u062f\u06cc\u0647\u06cc / \u067e\u06cc\u0634\u200c\u067e\u0627 \u0627\u0641\u062a\u0627\u062f\u0647",
+        "id": "8883",
+        "due_date": "2025-11-08T22:39:16.553541",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Unambiguous",
+        "answer": "\u0628\u062f\u0648\u0646 \u0627\u0628\u0647\u0627\u0645 / \u0635\u0631\u06cc\u062d",
+        "id": "8046",
+        "due_date": "2025-11-08T22:39:16.553543",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Underfitting",
+        "answer": "\u06a9\u0645\u200c\u0628\u0631\u0627\u0632\u0634",
+        "id": "1792",
+        "due_date": "2025-11-08T22:39:16.553544",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Unit (Test)",
+        "answer": "\u0648\u0627\u062d\u062f / \u06cc\u0648\u0646\u06cc\u062a (\u0622\u0632\u0645\u0648\u0646)",
+        "id": "3589",
+        "due_date": "2025-11-09T23:19:53.351637",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Validation",
+        "answer": "\u0627\u0639\u062a\u0628\u0627\u0631\u0633\u0646\u062c\u06cc",
+        "id": "4254",
+        "due_date": "2025-11-08T22:39:16.553548",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Variable",
+        "answer": "\u0645\u062a\u063a\u06cc\u0631",
+        "id": "5822",
+        "due_date": "2025-11-09T23:25:27.628519",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Variance",
+        "answer": "\u0648\u0627\u0631\u06cc\u0627\u0646\u0633",
+        "id": "6665",
+        "due_date": "2025-11-08T22:39:16.553552",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Vector",
+        "answer": "\u0628\u0631\u062f\u0627\u0631",
+        "id": "8370",
+        "due_date": "2025-11-09T23:27:44.824293",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Verbose",
+        "answer": "\u067e\u0631\u062d\u0631\u0641 / \u0645\u0641\u0635\u0644",
+        "id": "9171",
+        "due_date": "2025-11-08T22:39:16.553556",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Version Control",
+        "answer": "\u06a9\u0646\u062a\u0631\u0644 \u0646\u0633\u062e\u0647",
+        "id": "3294",
+        "due_date": "2025-11-09T23:19:19.668500",
+        "interval": 1,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Virtualization",
+        "answer": "\u0645\u062c\u0627\u0632\u06cc\u200c\u0633\u0627\u0632\u06cc",
+        "id": "7143",
+        "due_date": "2025-11-08T22:39:16.553562",
+        "interval": 0,
+        "deck_id": "4116"
+    },
+    {
+        "question": "Hello",
+        "answer": "Hallo",
+        "deck_id": "4116",
+        "id": "3070",
+        "due_date": "2025-11-09T14:43:21.703556",
+        "interval": 0
+    }
+]

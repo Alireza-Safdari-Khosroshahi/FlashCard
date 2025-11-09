@@ -1,0 +1,895 @@
+[
+    {
+        "question": "Abstraction",
+        "answer": "انتزاع"
+    },
+    {
+        "question": "Acceptance Criteria",
+        "answer": "معیارهای پذیرش"
+    },
+    {
+        "question": "Actuator",
+        "answer": "عملگر"
+    },
+    {
+        "question": "Adapter (Pattern)",
+        "answer": "آداپتور / تطبیق‌دهنده"
+    },
+    {
+        "question": "Affine (Transform)",
+        "answer": "آفین / وابسته خطی"
+    },
+    {
+        "question": "Aggregate",
+        "answer": "تجمیع کردن / مجموع"
+    },
+    {
+        "question": "Agile",
+        "answer": "چابک"
+    },
+    {
+        "question": "Algorithm",
+        "answer": "الگوریتم"
+    },
+    {
+        "question": "Ambiguous",
+        "answer": "مبهم / چندپهلو"
+    },
+    {
+        "question": "Amortized (Analysis)",
+        "answer": "سرشکن شده / استهلاکی"
+    },
+    {
+        "question": "Analysis",
+        "answer": "تحلیل / آنالیز"
+    },
+    {
+        "question": "Anomaly",
+        "answer": "ناهنجاری / غیرعادی"
+    },
+    {
+        "question": "API Gateway",
+        "answer": "دروازه API"
+    },
+    {
+        "question": "Arbitrary",
+        "answer": "دلخواه / اختیاری"
+    },
+    {
+        "question": "Architecture",
+        "answer": "معماری"
+    },
+    {
+        "question": "Artifact",
+        "answer": "خروجی ساخت / آرتیفکت"
+    },
+    {
+        "question": "Asynchronous",
+        "answer": "غیرهمزمان"
+    },
+    {
+        "question": "Asymptotic",
+        "answer": "مجانبی"
+    },
+    {
+        "question": "Atomic (Operation)",
+        "answer": "اتمیک / تجزیه‌ناپذیر"
+    },
+    {
+        "question": "Augment",
+        "answer": "تقویت کردن / افزایش دادن"
+    },
+    {
+        "question": "Authentication",
+        "answer": "احراز هویت"
+    },
+    {
+        "question": "Authorization",
+        "answer": "کسب مجوز"
+    },
+    {
+        "question": "Autonomous",
+        "answer": "خودمختار / خودگردان"
+    },
+    {
+        "question": "Axiom",
+        "answer": "اصل موضوع"
+    },
+    {
+        "question": "Backlog",
+        "answer": "بک‌لاگ / کارهای معوقه"
+    },
+    {
+        "question": "Backpropagation",
+        "answer": "انتشار معکوس (پس‌انتشار)"
+    },
+    {
+        "question": "Bandwidth",
+        "answer": "پهنای باند"
+    },
+    {
+        "question": "Batch (Processing)",
+        "answer": "دسته / دسته‌ای"
+    },
+    {
+        "question": "Bayesian",
+        "answer": "بیزی / بیزین"
+    },
+    {
+        "question": "Benchmark",
+        "answer": "معیار سنجش / محک"
+    },
+    {
+        "question": "Bias",
+        "answer": "بایاس / اریب"
+    },
+    {
+        "question": "Blue-Green (Deployment)",
+        "answer": "آبی-سبز (نوعی استقرار)"
+    },
+    {
+        "question": "Boolean",
+        "answer": "بولی / منطقی"
+    },
+    {
+        "question": "Branch (VCS)",
+        "answer": "شاخه / انشعاب"
+    },
+    {
+        "question": "Cache",
+        "answer": "حافظه پنهان"
+    },
+    {
+        "question": "Calibration",
+        "answer": "کالیبراسیون / واسنجی"
+    },
+    {
+        "question": "Canary (Release)",
+        "answer": "قناری (نوعی انتشار)"
+    },
+    {
+        "question": "Causation",
+        "answer": "علیت / سببیت"
+    },
+    {
+        "question": "Certificate",
+        "answer": "گواهینامه (دیجیتال)"
+    },
+    {
+        "question": "CI/CD (Continuous Integration/Deployment)",
+        "answer": "یکپارچه‌سازی و استقرار مستمر"
+    },
+    {
+        "question": "Classification",
+        "answer": "طبقه‌بندی"
+    },
+    {
+        "question": "Cohesion",
+        "answer": "انسجام (در کد)"
+    },
+    {
+        "question": "Collision (Hash)",
+        "answer": "تصادم / برخورد"
+    },
+    {
+        "question": "Complexity",
+        "answer": "پیچیدگی"
+    },
+    {
+        "question": "Concise",
+        "answer": "مختصر / موجز"
+    },
+    {
+        "question": "Concurrency",
+        "answer": "همروندی"
+    },
+    {
+        "question": "Configuration",
+        "answer": "پیکربندی / تنظیمات"
+    },
+    {
+        "question": "Constraint",
+        "answer": "قید / محدودیت"
+    },
+    {
+        "question": "Containerization",
+        "answer": "کانتینرسازی"
+    },
+    {
+        "question": "Contrast (Maximization)",
+        "answer": "کنتراست / تضاد (بیشینه‌سازی)"
+    },
+    {
+        "question": "Control Loop",
+        "answer": "حلقه کنترل"
+    },
+    {
+        "question": "Conventional",
+        "answer": "مرسوم / متداول"
+    },
+    {
+        "question": "Convergence",
+        "answer": "همگرایی"
+    },
+    {
+        "question": "Convolution",
+        "answer": "کانولوشن / پیچش"
+    },
+    {
+        "question": "Correlation",
+        "answer": "همبستگی"
+    },
+    {
+        "question": "Coupling",
+        "answer": "وابستگی / جفت‌شدگی (در کد)"
+    },
+    {
+        "question": "Covariance",
+        "answer": "کوواریانس"
+    },
+    {
+        "question": "Cross-validation",
+        "answer": "اعتبارسنجی متقابل"
+    },
+    {
+        "question": "Deadlock",
+        "answer": "بن‌بست"
+    },
+    {
+        "question": "Debugging",
+        "answer": "اشکال‌زدایی"
+    },
+    {
+        "question": "Decorator (Pattern)",
+        "answer": "تزئین‌گر"
+    },
+    {
+        "question": "Decryption",
+        "answer": "رمزگشایی"
+    },
+    {
+        "question": "Dependency (Injection)",
+        "answer": "وابستگی (تزریق)"
+    },
+    {
+        "question": "Deployment",
+        "answer": "استقرار / نصب"
+    },
+    {
+        "question": "Deprecated",
+        "answer": "منسوخ"
+    },
+    {
+        "question": "Descriptor (Feature)",
+        "answer": "توصیفگر (ویژگی)"
+    },
+    {
+        "question": "Deterministic",
+        "answer": "قطعی / معین"
+    },
+    {
+        "question": "Disparity (Stereo)",
+        "answer": "ناهمتایی / اختلاف"
+    },
+    {
+        "question": "Distribution",
+        "answer": "توزیع"
+    },
+    {
+        "question": "Divergence",
+        "answer": "واگرایی"
+    },
+    {
+        "question": "Dynamics (Robotics)",
+        "answer": "دینامیک"
+    },
+    {
+        "question": "Efficacy",
+        "answer": "اثربخشی / کارایی"
+    },
+    {
+        "question": "Efficiency",
+        "answer": "بهره‌وری / راندمان"
+    },
+    {
+        "question": "Eigenvalue / Eigenvector",
+        "answer": "مقدار ویژه / بردار ویژه"
+    },
+    {
+        "question": "Elasticity",
+        "answer": "کِشسانی / انعطاف‌پذیری"
+    },
+    {
+        "question": "Empirical",
+        "answer": "تجربی"
+    },
+    {
+        "question": "Emulate",
+        "answer": "شبیه‌سازی کردن (دقیق)"
+    },
+    {
+        "question": "Encapsulation",
+        "answer": "کپسوله‌سازی"
+    },
+    {
+        "question": "Encryption",
+        "answer": "رمزنگاری"
+    },
+    {
+        "question": "Endpoint",
+        "answer": "نقطه پایانی (API)"
+    },
+    {
+        "question": "Entropy",
+        "answer": "آنتروپی"
+    },
+    {
+        "question": "Epipolar (Geometry)",
+        "answer": "اِپی‌قطبی / برون‌قطبی"
+    },
+    {
+        "question": "Epoch",
+        "answer": "اِپوک (دوره)"
+    },
+    {
+        "question": "Estimation",
+        "answer": "تخمین / برآورد"
+    },
+    {
+        "question": "Event-driven",
+        "answer": "رویداد محور"
+    },
+    {
+        "question": "Explicit",
+        "answer": "صریح / آشکار"
+    },
+    {
+        "question": "Extrapolate",
+        "answer": "برون‌یابی کردن"
+    },
+    {
+        "question": "Facade (Pattern)",
+        "answer": "نما / فاساد"
+    },
+    {
+        "question": "Fault Tolerance",
+        "answer": "تحمل خطا"
+    },
+    {
+        "question": "Feature (Engineering)",
+        "answer": "ویژگی (مهندسی)"
+    },
+    {
+        "question": "Feedback (Loop)",
+        "answer": "بازخورد (حلقه)"
+    },
+    {
+        "question": "Framework",
+        "answer": "چارچوب"
+    },
+    {
+        "question": "Garbage Collection",
+        "answer": "زباله‌روبی"
+    },
+    {
+        "question": "Gaussian",
+        "answer": "گوسی / گاوسی"
+    },
+    {
+        "question": "Generalization",
+        "answer": "تعمیم"
+    },
+    {
+        "question": "Gradient (Descent)",
+        "answer": "گرادیان (کاهش)"
+    },
+    {
+        "question": "Graph",
+        "answer": "گراف"
+    },
+    {
+        "question": "Greedy (Algorithm)",
+        "answer": "حریصانه"
+    },
+    {
+        "question": "Heuristic",
+        "answer": "ابتکاری / اکتشافی"
+    },
+    {
+        "question": "High Availability",
+        "answer": "دسترسی‌پذیری بالا"
+    },
+    {
+        "question": "Homography",
+        "answer": "هموگرافی"
+    },
+    {
+        "question": "Hypothesis",
+        "answer": "فرضیه"
+    },
+    {
+        "question": "Idempotent",
+        "answer": "خودتوان"
+    },
+    {
+        "question": "Immutable",
+        "answer": "تغییرناپذیر / پایا"
+    },
+    {
+        "question": "Implicit",
+        "answer": "ضمنی / تلویحی"
+    },
+    {
+        "question": "Inertial (IMU)",
+        "answer": "اینرسیایی (واحد اندازه‌گیری)"
+    },
+    {
+        "question": "Inference",
+        "answer": "استنباط"
+    },
+    {
+        "question": "Infrastructure (as Code)",
+        "answer": "زیرساخت (به عنوان کد)"
+    },
+    {
+        "question": "Inheritance",
+        "answer": "ارث‌بری"
+    },
+    {
+        "question": "Integration (Test)",
+        "answer": "یکپارچه‌سازی (آزمون)"
+    },
+    {
+        "question": "Interface",
+        "answer": "رابط / واسط"
+    },
+    {
+        "question": "Interpolate",
+        "answer": "درون‌یابی کردن"
+    },
+    {
+        "question": "Inversion of Control (IoC)",
+        "answer": "وارونگی کنترل"
+    },
+    {
+        "question": "Iteration",
+        "answer": "تکرار"
+    },
+    {
+        "question": "Kalman (Filter)",
+        "answer": "کالمن (فیلتر)"
+    },
+    {
+        "question": "Kanban",
+        "answer": "کانبان"
+    },
+    {
+        "question": "Kernel",
+        "answer": "هسته / کرنل"
+    },
+    {
+        "question": "Kinematics",
+        "answer": "سینماتیک"
+    },
+    {
+        "question": "Latency",
+        "answer": "تاخیر / زمان نهفتگی"
+    },
+    {
+        "question": "Legacy (Code)",
+        "answer": "میراث / کد قدیمی"
+    },
+    {
+        "question": "Lemma",
+        "answer": "لِم (در اثبات)"
+    },
+    {
+        "question": "Library",
+        "answer": "کتابخانه"
+    },
+    {
+        "question": "Load Balancing",
+        "answer": "متعادل‌سازی بار"
+    },
+    {
+        "question": "Logging",
+        "answer": "ثبت وقایع / لاگ‌برداری"
+    },
+    {
+        "question": "Mean",
+        "answer": "میانگین"
+    },
+    {
+        "question": "Median",
+        "answer": "میانه"
+    },
+    {
+        "question": "Merge",
+        "answer": "ادغام کردن"
+    },
+    {
+        "question": "Message Queue",
+        "answer": "صف پیام"
+    },
+    {
+        "question": "Methodology",
+        "answer": "متدولوژی / روش‌شناسی"
+    },
+    {
+        "question": "Metric",
+        "answer": "سنجه / متریک"
+    },
+    {
+        "question": "Microservice",
+        "answer": "میکروسرویس / ریزسرویس"
+    },
+    {
+        "question": "Middleware",
+        "answer": "میان‌افزار"
+    },
+    {
+        "question": "Modularity",
+        "answer": "پیمانه‌ای بودن / ماژولار بودن"
+    },
+    {
+        "question": "Monitoring",
+        "answer": "پایش / مانیتورینگ"
+    },
+    {
+        "question": "Monolith",
+        "answer": "یکپارچه (مونولیت)"
+    },
+    {
+        "question": "Multithreading",
+        "answer": "چندنخی"
+    },
+    {
+        "question": "Mutable",
+        "answer": "تغییرپذیر"
+    },
+    {
+        "question": "Namespace",
+        "answer": "فضای نام"
+    },
+    {
+        "question": "Non-deterministic",
+        "answer": "غیرقطعی / نامعین"
+    },
+    {
+        "question": "Non-trivial",
+        "answer": "غیربدیهی"
+    },
+    {
+        "question": "Novel",
+        "answer": "جدید / بدیع"
+    },
+    {
+        "question": "Observer (Pattern)",
+        "answer": "ناظر"
+    },
+    {
+        "question": "Obfuscate",
+        "answer": "مبهم‌سازی کردن"
+    },
+    {
+        "question": "Odometry",
+        "answer": "مسافت‌سنجی"
+    },
+    {
+        "question": "Optical Flow",
+        "answer": "جریان نوری"
+    },
+    {
+        "question": "Optimization",
+        "answer": "بهینه‌سازی"
+    },
+    {
+        "question": "Orchestration",
+        "answer": "هماهنگ‌سازی (ارکستراسیون)"
+    },
+    {
+        "question": "Outlier",
+        "answer": "داده پرت"
+    },
+    {
+        "question": "Overfitting",
+        "answer": "بیش‌برازش"
+    },
+    {
+        "question": "Parallelism",
+        "answer": "موازی‌سازی"
+    },
+    {
+        "question": "Parameter",
+        "answer": "پارامتر"
+    },
+    {
+        "question": "Parsing",
+        "answer": "تجزیه (کد یا متن)"
+    },
+    {
+        "question": "Payload",
+        "answer": "بار مفید / محموله (داده)"
+    },
+    {
+        "question": "Perspective",
+        "answer": "پرسپکتیو / منظر"
+    },
+    {
+        "question": "Pipeline",
+        "answer": "خط لوله (پایپ‌لاین)"
+    },
+    {
+        "question": "Polymorphism",
+        "answer": "چندریختی"
+    },
+    {
+        "question": "Pose (Estimation)",
+        "answer": "ژست / حالت (تخمین)"
+    },
+    {
+        "question": "Postmortem",
+        "answer": "کالبدشکافی (رخداد)"
+    },
+    {
+        "question": "Postulate",
+        "answer": "اصل موضوع / فرض کردن"
+    },
+    {
+        "question": "Precision",
+        "answer": "دقت"
+    },
+    {
+        "question": "Prerequisite",
+        "answer": "پیش‌نیاز"
+    },
+    {
+        "question": "Probabilistic",
+        "answer": "احتمالاتی"
+    },
+    {
+        "question": "Propagation",
+        "answer": "انتشار"
+    },
+    {
+        "question": "Protocol",
+        "answer": "پروتکل / قرارداد"
+    },
+    {
+        "question": "Provisioning",
+        "answer": "تامین (منابع)"
+    },
+    {
+        "question": "Proxy",
+        "answer": "پراکسی / پیشکار"
+    },
+    {
+        "question": "Pub/Sub (Publish/Subscribe)",
+        "answer": "انتشار/اشتراک"
+    },
+    {
+        "question": "Qualitative",
+        "answer": "کیفی"
+    },
+    {
+        "question": "Quantitative",
+        "answer": "کمی"
+    },
+    {
+        "question": "Query",
+        "answer": "پرس و جو / کوئری"
+    },
+    {
+        "question": "Queue",
+        "answer": "صف"
+    },
+    {
+        "question": "Race Condition",
+        "answer": "شرایط رقابتی"
+    },
+    {
+        "question": "Recall",
+        "answer": "بازیابی (در متریک‌ها)"
+    },
+    {
+        "question": "Reconstruction (3D)",
+        "answer": "بازسازی (سه‌بعدی)"
+    },
+    {
+        "question": "Recursion",
+        "answer": "بازگشت"
+    },
+    {
+        "question": "Redundancy",
+        "answer": "افزونگی"
+    },
+    {
+        "question": "Refactoring",
+        "answer": "بازآرایی (کد)"
+    },
+    {
+        "question": "Regularization",
+        "answer": "تنظیم‌سازی / منظم‌سازی"
+    },
+    {
+        "question": "Repository",
+        "answer": "مخزن"
+    },
+    {
+        "question": "Resilient",
+        "answer": "تاب‌آور / مقاوم"
+    },
+    {
+        "question": "Rollback",
+        "answer": "بازگردانی / واگردانی"
+    },
+    {
+        "question": "Robust",
+        "answer": "مقاوم / استوار"
+    },
+    {
+        "question": "Scalability",
+        "answer": "مقیاس‌پذیری"
+    },
+    {
+        "question": "Scrum",
+        "answer": "اسکرام"
+    },
+    {
+        "question": "Segmentation",
+        "answer": "بخش‌بندی / قطعه‌بندی"
+    },
+    {
+        "question": "Semaphore",
+        "answer": "چراغ راهنما (در همروندی)"
+    },
+    {
+        "question": "Sensor (Fusion)",
+        "answer": "حسگر (ادغام)"
+    },
+    {
+        "question": "Serialization",
+        "answer": "سریال‌سازی"
+    },
+    {
+        "question": "Service Mesh",
+        "answer": "توری خدماتی"
+    },
+    {
+        "question": "Simulate",
+        "answer": "شبیه‌سازی کردن"
+    },
+    {
+        "question": "Singleton (Pattern)",
+        "answer": "تک‌الگو / سینگلتون"
+    },
+    {
+        "question": "SLAM",
+        "answer": "مکان‌یابی و نقشه‌برداری همزمان"
+    },
+    {
+        "question": "Sprint",
+        "answer": "اسپرینت / دوره تکرار"
+    },
+    {
+        "question": "Stack",
+        "answer": "پشته"
+    },
+    {
+        "question": "Standard Deviation",
+        "answer": "انحراف معیار"
+    },
+    {
+        "question": "State (Machine)",
+        "answer": "حالت (ماشین)"
+    },
+    {
+        "question": "Stateless / Stateful",
+        "answer": "بی‌حالت / باحالت"
+    },
+    {
+        "question": "Stereo (Vision)",
+        "answer": "استریو (بینایی)"
+    },
+    {
+        "question": "Stochastic",
+        "answer": "تصادفی / احتمالی"
+    },
+    {
+        "question": "Synchronous",
+        "answer": "همزمان"
+    },
+    {
+        "question": "Synthesis",
+        "answer": "سنتز / ترکیب"
+    },
+
+    {
+        "question": "TDD (Test-Driven Development)",
+        "answer": "توسعه آزمون‌محور"
+    },
+    {
+        "question": "Technical Debt",
+        "answer": "بدهی فنی"
+    },
+    {
+        "question": "Telemetry",
+        "answer": "تله‌متری / دورسنجی"
+    },
+    {
+        "question": "Tensor",
+        "answer": "تانسور"
+    },
+    {
+        "question": "Theorem",
+        "answer": "قضیه"
+    },
+    {
+        "question": "Throughput",
+        "answer": "توان عملیاتی"
+    },
+    {
+        "question": "Token",
+        "answer": "توکن / نشانه"
+    },
+    {
+        "question": "Topology",
+        "answer": "توپولوژی / همبندی"
+    },
+    {
+        "question": "Transformation",
+        "answer": "تبدیل / ترادیسی"
+    },
+    {
+        "question": "Traversal (Graph)",
+        "answer": "پیمایش (گراف)"
+    },
+    {
+        "question": "Triangulation",
+        "answer": "مثلث‌بندی"
+    },
+    {
+        "question": "Trivial",
+        "answer": "بدیهی / پیش‌پا افتاده"
+    },
+    {
+        "question": "Unambiguous",
+        "answer": "بدون ابهام / صریح"
+    },
+    {
+        "question": "Underfitting",
+        "answer": "کم‌برازش"
+    },
+    {
+        "question": "Unit (Test)",
+        "answer": "واحد / یونیت (آزمون)"
+    },
+    {
+        "question": "Validation",
+        "answer": "اعتبارسنجی"
+    },
+    {
+        "question": "Variable",
+        "answer": "متغیر"
+    },
+    {
+        "question": "Variance",
+        "answer": "واریانس"
+    },
+    {
+        "question": "Vector",
+        "answer": "بردار"
+    },
+    {
+        "question": "Verbose",
+        "answer": "پرحرف / مفصل"
+    },
+    {
+        "question": "Version Control",
+        "answer": "کنترل نسخه"
+    },
+    {
+        "question": "Virtualization",
+        "answer": "مجازی‌سازی"
+    }
+]

@@ -1,0 +1,959 @@
+/* General body and app-wrapper styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scroll when sidebar is off-screen */
+}
+
+#app-wrapper {
+    display: flex;
+    min-height: 100vh;
+    position: relative; /* Needed for main-content positioning */
+    transition: transform 0.3s ease; /* For pushing content */
+}
+
+/* Sidebar styles */
+#sidebar {
+    width: 60px; /* Collapsed width */
+    background-color: #2c3e50; /* Darker, more modern background */
+    color: #ecf0f1; /* Light text color */
+    padding: 15px 0;
+    position: fixed;
+    height: 100%;
+    overflow-x: hidden;
+    transition: width 0.3s ease, left 0.3s ease; /* Smooth transition for width and left */
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2); /* Subtle shadow */
+}
+
+#sidebar:hover {
+    width: 250px; /* Expanded width */
+}
+
+#sidebar .sidebar-header {
+    padding: 10px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255,255,255,0.1); /* Separator */
+    padding-bottom: 15px;
+}
+
+#sidebar .user-info {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#sidebar:hover .user-info {
+    opacity: 1;
+}
+
+#sidebar .logout-button,
+#sidebar .login-button {
+    display: block;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: #e74c3c; /* Red for logout/login */
+}
+
+#sidebar .logout-button:hover,
+#sidebar .login-button:hover {
+    background-color: #c0392b;
+}
+
+#sidebar:hover .logout-button,
+#sidebar:hover .login-button {
+    opacity: 1;
+}
+
+#sidebar .tabs {
+    flex-direction: column;
+    border-bottom: none;
+    margin-bottom: 0;
+    width: 100%;
+    flex-grow: 1; /* Allow tabs to take available space */
+}
+
+#sidebar .tab-button {
+    width: 100%;
+    text-align: left;
+    padding: 15px 20px;
+    color: #bdc3c7; /* Lighter grey for inactive tabs */
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center icon/text when collapsed */
+    font-size: 1.1em;
+    position: relative; /* For icon positioning */
+}
+
+#sidebar .tab-button::before {
+    content: ''; /* Placeholder for icon */
+    font-family: 'Font Awesome 5 Free', 'Segoe UI Symbol'; /* Assuming Font Awesome or similar for icons */
+    font-weight: 900;
+    margin-right: 0; /* No margin when collapsed */
+    transition: margin-right 0.3s ease;
+    width: 20px; /* Fixed width for icon area */
+    text-align: center;
+}
+
+#sidebar:hover .tab-button::before {
+    margin-right: 10px; /* Add margin when expanded */
+}
+
+/* Specific icons for tabs (using text characters for now) */
+#sidebar .tab-button[onclick*="decks"]::before { content: '🏠'; }
+#sidebar .tab-button[onclick*="learning"]::before { content: '🧠'; }
+#sidebar .tab-button[onclick*="manage-cards"]::before { content: '🗃️'; }
+#sidebar .tab-button[onclick*="quiz-mode"]::before { content: '❓'; }
+#sidebar .tab-button[onclick*="ai-tools"]::before { content: '🤖'; }
+#sidebar .tab-button[onclick*="settings"]::before { content: '⚙️'; }
+
+
+#sidebar:hover .tab-button {
+    justify-content: flex-start; /* Align text to left when expanded */
+}
+
+#sidebar .tab-button.active {
+    background-color: #34495e; /* Slightly lighter dark for active */
+    color: #fff;
+    border-left: 5px solid #2ecc71; /* Green indicator for active tab */
+}
+
+#sidebar .tab-button:hover:not(.active) {
+    background-color: #3b5167; /* Darker hover for inactive tabs */
+    color: #fff;
+}
+
+/* Main content area */
+#main-content {
+    margin-left: 60px; /* Initial margin for collapsed sidebar */
+    flex-grow: 1;
+    padding: 20px;
+    transition: margin-left 0.3s ease, transform 0.3s ease; /* Smooth transition for margin and transform */
+    position: relative; /* For overlay */
+}
+
+#sidebar:hover + #main-content {
+    margin-left: 250px; /* Margin for expanded sidebar */
+}
+
+/* Mobile menu button */
+#mobile-menu-button {
+    display: none; /* Hidden by default on desktop */
+    position: flex;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    z-index: 110;
+    padding: 10px 15px;
+    font-size: 24px;
+    background-color: #3498db; /* Blue for menu button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Responsive Design */
+#notification-area {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    max-width: 300px;
+}
+
+.notification {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.95;
+}
+
+.notification.success {
+    background-color: #28a745;
+}
+
+.notification.error {
+    background-color: #dc3545;
+}
+
+.notification.info {
+    background-color: #17a2b8;
+}
+
+.modal {
+    position: fixed;
+    z-index: 100; /* Higher z-index for modals */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6); /* Darker overlay */
+    display: flex; /* Use flexbox for centering */
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 30px; /* Increased padding */
+    border: 1px solid #888;
+    width: 90%; /* Wider on smaller screens */
+    max-width: 450px; /* Max width for larger screens */
+    text-align: center;
+    border-radius: 8px; /* More rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+}
+
+.modal-content h3 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Base button style */
+.btn {
+    padding: 10px 20px; /* Increased padding */
+    border: none;
+    border-radius: 5px; /* Slightly more rounded */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for subtle animation */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px; /* Consistent margin */
+    min-width: 100px; /* Minimum width for buttons */
+}
+
+.btn:hover {
+    transform: translateY(-1px); /* Subtle lift effect */
+}
+
+/* Button color variations */
+.btn-primary {
+    background-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #333;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+.btn-secondary:hover {
+    background-color: #545b62;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between modal buttons */
+    margin-top: 20px;
+}
+
+/* Input field styling */
+.form-control {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    margin-bottom: 15px; /* Consistent bottom margin */
+    border: 1px solid #ced4da; /* Lighter border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+textarea.form-control {
+    min-height: 80px; /* Min height for text areas */
+    resize: vertical;
+}
+
+/* Flex container for aligning input fields and buttons */
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px; /* Consistent bottom margin */
+    align-items: stretch; /* Stretch items to fill height */
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+    margin-bottom: 0; /* Remove bottom margin when in input-group */
+}
+
+.input-group .btn {
+    margin: 0; /* Remove individual button margins when in input-group */
+    align-self: center; /* Center button vertically */
+}
+
+.container {
+    max-width: 960px; /* Wider container */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px; /* Increased padding */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #e9ecef; /* Lighter border */
+    margin-bottom: 25px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+}
+
+.tabs::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, Opera */
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    padding: 15px 25px; /* Increased padding */
+    cursor: pointer;
+    font-size: 17px; /* Slightly larger font */
+    transition: background-color 0.3s, color 0.3s, border-bottom 0.3s;
+    color: #6c757d; /* Muted color */
+    font-weight: 600; /* Bolder font */
+    white-space: nowrap;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.tab-button:hover {
+    color: #0056b3;
+    background-color: #e2e6ea;
+}
+
+.tab-button.active {
+    color: #007bff;
+    border-bottom: 3px solid #007bff; /* Active tab indicator */
+    background-color: #f8f9fa; /* Light background for active tab */
+}
+
+.tab-content {
+    display: none;
+    padding-top: 10px; /* Space below tabs */
+}
+
+.tab-content.active {
+    display: block;
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3 {
+    color: #343a40;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #495057;
+}
+
+#card-list,
+#deck-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#deck-list li {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#deck-list li:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+/* Learning Tab UI */
+#learning-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-block {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 30px; /* Increased padding */
+    margin-bottom: 25px; /* Increased margin */
+    min-height: 150px; /* Consistent height for cards */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#question-block {
+    background-color: #f8f9fa;
+}
+
+#answer-block {
+    background-color: #eaf7ed; /* Lighter green */
+}
+
+#learning-question,
+#learning-answer {
+    font-size: 32px; /* Significantly larger font */
+    font-weight: 700; /* Bolder */
+    color: #343a40;
+    margin: 0; /* Remove default paragraph margin */
+    word-wrap: break-word; /* Ensure long text wraps */
+    max-width: 100%; /* Ensure it doesn't overflow */
+}
+
+#show-answer-button {
+    margin-bottom: 20px;
+}
+
+#rating-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Settings UI */
+#settings-form {
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#settings-form .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#settings-form .form-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #495057;
+}
+
+#settings-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#settings-form button[type="submit"] {
+    margin-top: 15px;
+    width: auto; /* Allow button to size naturally */
+    align-self: flex-start; /* Align button to the start */
+}
+
+/* Manage Cards UI */
+.manage-cards-container {
+    display: flex;
+    gap: 30px; /* Increased gap */
+    margin-top: 20px;
+}
+
+.manage-cards-forms {
+    flex: 1;
+    min-width: 300px; /* Ensure forms have enough space */
+}
+
+.manage-cards-list {
+    flex: 1.5; /* Give more space to the list */
+    max-height: 500px; /* Increased max height */
+    overflow-y: auto;
+    padding-right: 10px; /* Space for scrollbar */
+    scrollbar-width: thin; /* Firefox scrollbar */
+    scrollbar-color: #007bff #e9ecef; /* Firefox scrollbar color */
+}
+
+.manage-cards-list::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.manage-cards-list::-webkit-scrollbar-track {
+    background: #e9ecef; /* Track color */
+    border-radius: 10px;
+}
+
+.manage-cards-list::-webkit-scrollbar-thumb {
+    background-color: #007bff; /* Thumb color */
+    border-radius: 10px;
+    border: 2px solid #e9ecef; /* Padding around thumb */
+}
+
+#card-list li {
+    background-color: #ffffff; /* White background for cards */
+    padding: 18px; /* Slightly more padding */
+    border: 1px solid #e0e0e0; /* Softer border */
+    border-radius: 10px; /* More rounded corners */
+    margin-bottom: 12px; /* Increased margin between cards */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* More pronounced shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#card-list li:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+#card-list .card-content {
+    flex-grow: 1;
+    font-size: 17px; /* Slightly larger font for content */
+    color: #343a40;
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Ensure content takes full width */
+}
+
+#card-list .card-content strong {
+    color: #007bff; /* Highlight Q/A labels */
+}
+
+#card-list .card-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-end; /* Align buttons to the right */
+    width: 100%; /* Ensure actions take full width */
+}
+
+#card-list .card-actions .btn {
+    padding: 8px 15px; /* Adjusted padding for action buttons */
+    font-size: 14px;
+    min-width: 70px; /* Ensure a minimum width for consistency */
+    margin: 0;
+}
+
+/* Quiz Mode UI */
+#quiz-setup .form-group {
+    margin-bottom: 15px;
+}
+
+#quiz-setup .input-group {
+    margin-top: 20px;
+    justify-content: center; /* Center buttons in quiz setup */
+}
+
+#quiz-setup .input-group .btn {
+    flex-grow: 1; /* Allow buttons to grow */
+    max-width: 200px; /* Limit max width */
+}
+
+#quiz-container {
+    margin-top: 20px;
+}
+
+#progress-bar-container {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 10px; /* Fixed height for progress bar track */
+}
+
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+.quiz-card {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+#question-display {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #343a40;
+}
+
+#answer-options {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#answer-options label {
+    display: flex; /* Align radio button and text */
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 80%; /* Adjust width */
+    max-width: 350px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#answer-options label:hover {
+    background-color: #dee2e6;
+}
+
+#answer-options input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Slightly larger radio buttons */
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#ai-log-container {
+    margin-top: 30px;
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+#ai-log {
+    white-space: pre-wrap;
+    font-family: 'Roboto Mono', monospace; /* Monospace font for logs */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    max-height: 250px; /* Increased max height */
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    font-size: 14px;
+    color: #495057;
+}
+
+/* Learning Progress Bar Container */
+#learning-progress-bar-container {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #495057;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+#learning-progress-bar-container span {
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    min-width: 80px; /* Ensure consistent width */
+}
+
+#learning-progress-bar-container span:first-child {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#learning-progress-bar-container #again-cards-count {
+    color: #dc3545;
+}
+
+#learning-progress-bar-container #good-cards-count {
+    color: #ffc107;
+}
+
+#learning-progress-bar-container #easy-cards-count {
+    color: #28a745;
+}
+
+@media (max-width: 768px) {
+    #mobile-menu-button {
+        display: block; /* Show on mobile */
+    }
+
+    #sidebar {
+        width: 250px; /* Fixed width when open on mobile */
+        left: -250px; /* Off-screen by default */
+        transition: left 0.3s ease;
+        padding-top: 60px; /* Space for menu button */
+    }
+
+    #sidebar.sidebar-open {
+        left: 0; /* Slide into view */
+    }
+
+    /* Disable hover effect on mobile */
+    #sidebar:hover {
+        width: 250px;
+    }
+    #sidebar:hover .user-info,
+    #sidebar:hover .logout-button,
+    #sidebar:hover .login-button {
+        opacity: 1;
+    }
+    #sidebar:hover .tab-button {
+        justify-content: flex-start;
+    }
+    #sidebar:hover .tab-button::before {
+        margin-right: 10px;
+    }
+    #sidebar:hover + #main-content {
+        margin-left: 0; /* No margin change on hover for mobile */
+    }
+
+    #main-content {
+        margin-left: 0; /* No margin on mobile by default */
+        padding-top: 60px; /* Space for menu button */
+        transform: translateX(0); /* Reset transform */
+    }
+
+    /* Push effect for main content when sidebar is open */
+    #app-wrapper.sidebar-open #main-content {
+        transform: translateX(250px); /* Push main content */
+    }
+
+    /* Overlay for main content when sidebar is open */
+    #app-wrapper.sidebar-open #main-content::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5); /* Semi-transparent overlay */
+        z-index: 90; /* Below sidebar, above main content */
+    }
+
+    body {
+        padding: 0; /* Remove body padding on mobile */
+    }
+
+    .container {
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .tabs {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .tab-button {
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .manage-cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .manage-cards-forms,
+    .manage-cards-list {
+        min-width: unset;
+        flex: unset;
+    }
+
+    #card-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #card-list .card-actions {
+        margin-top: 8px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    #card-list .card-actions .btn {
+        margin: 0 5px 5px 0;
+    }
+
+    #deck-stats-container > div:last-child {
+        width: 100% !important;
+    }
+
+    #learning-question,
+    #learning-answer {
+        font-size: 26px;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .modal-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn {
+        min-width: unset;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .input-group {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .input-group .form-control {
+        margin-bottom: 0;
+    }
+
+    .input-group .btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    #learning-progress-bar-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #learning-progress-bar-container span {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #quiz-setup .input-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #quiz-setup .input-group .btn {
+        max-width: 100%;
+    }
+
+    #answer-options label {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-button {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    #learning-question,
+    #learning-answer {
+        font-size: 22px;
+    }
+
+    .card-block {
+        padding: 20px;
+        min-height: 120px;
+    }
+}
