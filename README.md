@@ -2,6 +2,8 @@
 
 This is a web-based flashcard application built with Flask. It allows users to create decks of flashcards, add cards to them, and then review them using a spaced repetition system. The application also integrates with Google's Generative AI to automatically generate flashcards from a given topic or a PDF file.
 
+![FlashCard App Screenshot](static/images/screenshot.png)
+
 ## Features
 
 *   Create and manage decks of flashcards.
